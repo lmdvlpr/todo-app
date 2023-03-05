@@ -5,7 +5,7 @@ const router = express.Router()
 
 let todos = []
 
-router.get('', (req, res) => {
+router.get('', (_req, res) => {
   return res.json(todos)
 })
 
